@@ -1,0 +1,22 @@
+id: http://w3id.org/miop/ranges
+name: ranges
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+  miop.vocab: https://w3id.org/miop/vocab/
+  MIOP: https://w3id.org/miop/terms/
+default_prefix: miop.vocab
+slots: {}
+classes:
+  quantity value:
+    description: used to record a measurement
+    attributes:
+      has unit:
+        description: Example "m"
+      has numeric value:
+        range: double
+      has raw value:
+        string_serialization: '{has numeric value} {has unit}'
+subsets: {}
+enums: {}
