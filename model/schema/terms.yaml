@@ -1,131 +1,55 @@
-id: http://w3id.org/mixs/terms
+id: http://w3id.org/miop/terms
 name: terms
 imports:
 - linkml:types
 - ranges
 prefixes:
   linkml: https://w3id.org/linkml/
-  mixs.vocab: https://w3id.org/mixs/vocab/
-  MIXS: https://w3id.org/mixs/terms/
-default_prefix: mixs.vocab
+  miop.vocab: https://w3id.org/miop/vocab/
+  MIOP: https://w3id.org/miop/terms/
+default_prefix: miop.vocab
 slots:
   core field:
     abstract: true
-    description: basic fields
-  investigation field:
+    description: MIOP field determined to be essential across all protocols
+  society field:
     abstract: true
-    description: field describing aspect of the investigation/study to which the sample
+    description: placeholder to match our 
       belongs
-  nucleic acid sequence source field:
-    abstract: true
-  sequencing field:
-    abstract: true
-  mixs extension field:
-    abstract: true
-  environment field:
-    abstract: true
-    description: field describing environmental aspect of a sample
-  samp_name:
-    is_a: investigation field
-    title: sample name
-    description: A local identifier or name that for the material sample used for
-      extracting nucleic acids, and subsequent sequencing. It can refer either to
-      the original material collected or to any derived sub-samples. It can have any
-      format, but we suggest that you make it concise, unique and consistent within
-      your lab, and as informative as possible. INSDC requires every sample name from
-      a single Submitter to be unique. Use of a globally unique identifier for the
-      field source_mat_id is recommended in addition to sample_name.
-    range: string
+  meth_cat:
+    is_a: core field
+    title: methodology category 
+    description: Methodology category which the uploaded protocol belongs to. This links to the associated 
+      methodology categories which precede and succeed it in the workflow, to facilitate the linking of protocols 
+      into entire workflows, while keeping granularity and flexibility. This will enable the mixing and matching of 
+      protocol modules from various uploaded workflows
+    range: meth_cat_enum
     multivalued: false
     examples:
-    - value: ISDsoil1
-    comments: []
+    - value: society
+    - value: ethics and law
+    - value: design and logistics
+    comments: 
     aliases:
-    - sample name
+    - method type
+    - methodological category
+    - protocol type
     annotations:
       expected_value: text
     string_serialization: '{text}'
-    slot_uri: MIXS:0001107
-  samp_taxon_id:
-    is_a: investigation field
-    title: Taxonomy ID of DNA sample
-    description: "NCBI taxon id of the sample.  Maybe be a single taxon or mixed taxa\
-      \ sample. Use 'synthetic metagenome\u2019 for mock community/positive controls,\
-      \ or 'blank sample' for negative controls."
-    range: string
-    multivalued: false
-    examples:
-    - value: Gut Metagenome [NCBI:txid749906]
-    comments: []
-    aliases:
-    - Taxonomy ID of DNA sample
-    annotations:
-      expected_value: Taxonomy ID
-    string_serialization: '{text} [NCBI:txid]'
-    slot_uri: MIXS:0001320
-  project_name:
-    is_a: investigation field
-    title: project name
-    description: Name of the project within which the sequencing was organized
-    range: string
-    multivalued: false
-    examples:
-    - value: Forest soil metagenome
-    comments: []
-    aliases:
-    - project name
-    annotations: {}
-    string_serialization: '{text}'
-    slot_uri: MIXS:0000092
-  experimental_factor:
-    is_a: investigation field
-    title: experimental factor
-    description: Experimental factors are essentially the variable aspects of an experiment
-      design which can be used to describe an experiment, or set of experiments, in
-      an increasingly detailed manner. This field accepts ontology terms from Experimental
-      Factor Ontology (EFO) and/or Ontology for Biomedical Investigations (OBI). For
-      a browser of EFO (v 2.95) terms, please see http://purl.bioontology.org/ontology/EFO;
-      for a browser of OBI (v 2018-02-12) terms please see http://purl.bioontology.org/ontology/OBI
-    range: string
-    multivalued: false
-    examples:
-    - value: time series design [EFO:EFO_0001779]
-    comments: []
-    aliases:
-    - experimental factor
-    annotations:
-      expected_value: text or EFO and/or OBI
-    string_serialization: '{termLabel} {[termID]}|{text}'
-    slot_uri: MIXS:0000008
-  lat_lon:
-    is_a: environment field
-    title: geographic location (latitude and longitude)
-    description: The geographical origin of the sample as defined by latitude and
-      longitude. The values should be reported in decimal degrees and in WGS84 system
-    range: string
-    multivalued: false
-    examples:
-    - value: 50.586825 6.408977
-    comments: []
-    aliases:
-    - geographic location (latitude and longitude)
-    annotations:
-      expected_value: decimal degrees,  limit to 8 decimal points
-    string_serialization: '{float} {float}'
-    slot_uri: MIXS:0000009
-  depth:
-    is_a: environment field
-    title: depth
-    description: The vertical distance below local surface, e.g. for sediment or soil
-      samples depth is measured from sediment or soil surface, respectively. Depth
-      can be reported as an interval for subsurface samples.
-    range: quantity value
-    multivalued: false
-    examples:
-    - value: 10 meter
-    comments: []
-    aliases:
-    - depth
-    annotations:
-      expected_value: measurement value
-    slot_uri: MIXS:0000018
+    slot_uri: MIOP:0000001
+enums:
+   meth_cat_enum:
+    permissible_values:
+      society: {}
+      design and logistics: {}
+      ethics and law: {}
+      data management: {}
+      sampling collection procedure: {}
+      bioinformatics: {}
+      contextual metadata analytical procedures: {}
+      sample extraction and purification: {}
+      omics sequencing procedures: {}
+      sample archiving or biobanking: {}
+      quantitative amplification: {}
+      data analysis: {}
