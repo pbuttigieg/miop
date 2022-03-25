@@ -19,7 +19,8 @@ slots:
   meth_cat:
     is_a: core field
     title: methodology category 
-    description: Methodology category which the uploaded protocol belongs to. This links to the associated 
+    description: >
+      Methodology category which the uploaded protocol belongs to. This links to the associated 
       methodology categories which precede and succeed it in the workflow, to facilitate the linking of protocols 
       into entire workflows, while keeping granularity and flexibility. This will enable the mixing and matching of 
       protocol modules from various uploaded workflows
