@@ -86,7 +86,8 @@ Specify how much time is necessary to execute the procedure.
 # EQUIPMENT
 
 | DESCRIPTION e.g. filter | PRODUCT NAME AND MODEL Provide the official name of the product | MANUFACTURER Provide the name of the manufacturer of the product. | QUANTITY Provide quantities necessary for one application of the standard operating procedure (e.g. number of filters). | REMARK For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure. |
-| Durable Equipment | | | | |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Durable equipment |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 
