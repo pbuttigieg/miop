@@ -74,6 +74,7 @@ slots:
     - value: taxonomic diversity assessment by targeted gene survey [OBI:0001960]
     - value: aliquot concentration
     - value: DNA extraction
+    slot_uri: MIOP:0000003
   resources:
     is_a: core field
     title: resources
@@ -88,6 +89,7 @@ slots:
     - value: InnovaPrep FluidPrep CP Select
     - value: ZymoBIOMICS™ Fecal Reference with TruMatrix™ Technology
     - value: GenapSys Sequencer
+    slot_uri: MIOP:0000004
   analyses:
     is_a: core field
     title: analyses
@@ -99,6 +101,7 @@ slots:
     examples:
     - value: amplicon sequencing assay[OBI:0002767]
     - value: polymerase chain reaction[OBI:0002692]
+    slot_uri: MIOP:0000005
   geographic location:
     is_a: core field
     title: geographic location
@@ -110,6 +113,7 @@ slots:
     examples:
     - value: Hawaii Ocean Time-series Site [GAZ:00187530]
     - value: Western English Channel Sampling Stations [GAZ:00187525]
+    slot_uri: MIOP:0000006
   broad-scale environmental context:
     is_a: core field
     title: broad-scale environmental context
@@ -120,6 +124,7 @@ slots:
     multivalued: true
     examples:
     - value: oceanic epipelagic zone biome [ENVO:01000033]
+    slot_uri: MIOP:0000007
   local environmental context:
     is_a: core field
     title: local environmental context
@@ -130,6 +135,7 @@ slots:
     multivalued: true
     examples:
     - value: seasonal thermocline [ENVO:01000107]
+    slot_uri: MIOP:0000008
   environmental medium:
     is_a: core field
     title: environmental medium
@@ -140,6 +146,7 @@ slots:
     multivalued: true
     examples:
     - value: ocean water [ENVO:00002151]
+    slot_uri: MIOP:0000009
   target:
     is_a: core field
     title: target
@@ -151,6 +158,7 @@ slots:
     examples:
     - value: Polaribacter [NCBITaxon:1642819]
     - value: 16S Mitochondrial Ribosomal RNA [NCIT:C131261]
+    slot_uri: MIOP:00000010
   contributor:
     is_a: core field
     title: contributor
@@ -161,6 +169,7 @@ slots:
     examples:
     - value: Kathleen Johnson Pitz
     slot_uri: DCMI:contributor
+    slot_uri: MIOP:0000011
 enums:
    meth_cat_enum:
     permissible_values:
