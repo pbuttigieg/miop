@@ -173,6 +173,16 @@ slots:
     examples:
     - value: Polaribacter [NCBITaxon:1642819]
     - value: 16S Mitochondrial Ribosomal RNA [NCIT:C131261]
+  contributor:
+    is_a: core field
+    title: contributor
+    description: >
+      An entity responsible for making contributions to the resource.
+    range: string
+    multivalued: true
+    examples:
+    - value: Kathleen Johnson Pitz
+    slot_uri: DCMI:contributor
 enums:
    meth_cat_enum:
     permissible_values:
