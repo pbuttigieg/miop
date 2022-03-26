@@ -49,6 +49,21 @@ This is a list of other protocols deposited in your folder which should be known
 | Content Cell  | Content Cell  | yyyy-mm-dd  |
 | Content Cell  | Content Cell  | yyyy-mm-dd  |
 
+## RELATED EXTERNAL PROTOCOLS
+
+This is a list of other protocols that are not in your folder which should be known to users of this protocol. These include, e.g., kit manuals. Please upload all relevant external protocols to Appendix A and link to them here.
+
+| EXTERNAL PROTOCOL NAME AND LINK  | ISSUER / AUTHOR Please note who authored the protocol (this may also be a company name) | ACCESS DATE This is the date you downloaded or scanned the protocol and uploaded it. |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | yyyy-mm-dd  |
+| Content Cell  | Content Cell  | yyyy-mm-dd  |
+
+## ACRONYMS AND ABBREVIATIONS
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+
 
 
 
