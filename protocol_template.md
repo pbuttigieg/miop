@@ -58,4 +58,35 @@ This document describes the required protocol to conduct insert name of the meth
 Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
 Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
 
+## Method description and rationale
+
+Insert a short description of the functioning principal of the methodology used in the protocol (i.e. how does the method work?). Please note that this is different from the step-by-step description of the protocol procedure. 
+Insert a short statement explaining why the specific methodology used in the protocol has been selected (e.g. it is highly reproducible, highly accurate, procedures are easy to execute etc….).
+
+## Spatial coverage and environment(s) of relevance
+
+If applicable, please specify the region where the protocol is applied. For regional term guidance see here. If applicable, please indicate here the environment(s) of relevance for the protocol, e.g. Abyssal plain. Select from the ENVO terminology.
+
+# PERSONNEL REQUIRED
+
+Insert the number of technicians, data managers, and scientists required for the good execution of the procedure
+
+## Safety
+
+Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
+
+## Training requirements
+
+Specify technical training required for the good execution of the procedure.
+
+## Time needed to execute the procedure
+
+Specify how much time is necessary to execute the procedure.
+
+# EQUIPMENT
+
+| DESCRIPTION e.g. filter | PRODUCT NAME AND MODEL Provide the official name of the product | MANUFACTURER Provide the name of the manufacturer of the product. | QUANTITY Provide quantities necessary for one application of the standard operating procedure (e.g. number of filters). | REMARK For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure. |
+| Durable Equipment |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 
