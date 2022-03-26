@@ -61,28 +61,6 @@ slots:
       expected_value: text
     string_serialization: '{text}'
     slot_uri: MIOP:0000002
-  project:
-    is_a: core field
-    title: project
-    description: >
-      Details about the project (e.g., Name, Affiliation, website). May also includes a field
-      for tagging any projects that protocols are compliant with (e.g., Earth Microbiome Project/TARA Oceans).
-      Once submitted the relevant PI may be notified and could choose to endorse or reject the protocol as compliant
-      with their project.
-    range: string
-    multivalued: true
-    examples:
-    - value: Moorea BioCode, https://www.moorea.berkeley.edu/programs/research/moorea-biocode
-    - value: Project X, Compliant with: Project Y, Project Z
-    comments: 
-    aliases:
-    - source project
-    - authoring project
-    - published by project
-    annotations:
-      expected_value: text
-    string_serialization: '{text}'
-    slot_uri: MIOP:0000002
   purpose:
     is_a: core field
     title: purpose
