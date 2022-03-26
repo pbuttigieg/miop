@@ -42,6 +42,20 @@ This is a list of other protocols that are not in your folder which should be kn
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 
+## GLOSSARY
 
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+# BACKGROUND
+
+This document describes the required protocol to conduct insert name of the method/protocol. 
+
+## Summary
+
+Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
+Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
 
 
