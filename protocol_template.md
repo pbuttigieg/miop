@@ -90,4 +90,65 @@ Specify how much time is necessary to execute the procedure.
 | Durable equipment |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
 | Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Consumable equipment |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Chemicals |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+
+# STANDARD OPERATING PROCEDURE
+
+In the following SOP, please use the exact names of equipment as noted in the table above.
+
+## Protocol
+
+Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
+
+## Sampling
+
+Preparation
+Please specify the preparatory actions you took before you collected the samples and note what equipment was needed to do so (e.g. disinfection of work surfaces, preparations to the equipment you intend to use later on).
+
+- Step 1
+- Step 2
+Sampling
+Please specify how you collected samples and note what equipment you used to do so (e.g. targeted water mass, volume, sampling equipment, replication).
+
+- Step 1
+- Step 2
+Filtration
+Please specify how you filtered the samples and note what equipment you used to do so (e.g. mixing, volume filtered, size of filter and pores, filtration apparatus, duration of filtration, replication).
+
+- Step 1
+- Step 2
+Sample preservation
+Please specify what steps you took to preserve the samples taken and note what equipment you used to do so (e.g. freezing in liquid nitrogen).
+
+- Step 1
+- Step 2
+
+Storage
+Please specify how you stored your samples and note what equipment you used to do so (e.g. stored in -80°C freezer).
+
+- Step 1
+- Step 2
+
+## Quality control
+
+Describe and explain criteria used to validate results of the standard operating procedure.
+
+## Basic troubleshooting guide
+
+Identify known issues associated with the procedure, if any.
+Provide troubleshooting guidelines when available.
+
+# REFERENCES
+
+Insert all references cited in the document.
+Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
+
+# APPENDIX A: DATASHEETS
+
+Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance. 
 
