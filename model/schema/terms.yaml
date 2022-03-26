@@ -110,6 +110,79 @@ slots:
     - value: InnovaPrep FluidPrep CP Select
     - value: ZymoBIOMICS™ Fecal Reference with TruMatrix™ Technology
     - value: GenapSys Sequencer
+  analyses:
+    is_a: core field
+    title: analyses
+    description: >
+      Terms to describe the types of analyses used inthe protocol [e.g., amplicon sequencing
+      assay[OBI:0002767] or polymerase chain reaction[OBI:0002692]]
+    range: string
+    multivalued: true
+    examples:
+    - value: amplicon sequencing assay[OBI:0002767]
+    - value: polymerase chain reaction[OBI:0002692]
+  geographic location:
+    is_a: core field
+    title: geographic location
+    description: >
+      Geographic location/s in which the protocol hasbeen used [e.g., Hawaii Ocean Time-series
+      Site [GAZ:00187530], Western English Channel Sampling Stations [GAZ:00187525]]
+    range: string
+    multivalued: true
+    examples:
+    - value: Hawaii Ocean Time-series Site [GAZ:00187530]
+    - value: Western English Channel Sampling Stations [GAZ:00187525]
+  broad-scale environmental context:
+    is_a: core field
+    title: broad-scale environmental context
+    description: >
+      Biomes in which the protocol was successfully used 
+      [e.g., oceanic epipelagic zone biome [ENVO:01000033]]
+    range: string
+    multivalued: true
+    examples:
+    - value: oceanic epipelagic zone biome [ENVO:01000033]
+  local environmental context:
+    is_a: core field
+    title: local environmental context
+    description: >
+      Environmental features targeted using the protocol 
+      [e.g., seasonal thermocline [ENVO:01000107]]
+    range: string
+    multivalued: true
+    examples:
+    - value: seasonal thermocline [ENVO:01000107]
+  environmental medium:
+    is_a: core field
+    title: environmental medium
+    description: >
+      Identify the environmental or organismal material from which the biological
+      molecule (e.g., DNA/RNA/Protein) was extracted [e.g.,ocean water [ENVO:00002151]]
+    range: string
+    multivalued: true
+    examples:
+    - value: ocean water [ENVO:00002151]
+  target:
+    is_a: core field
+    title: target
+    description: >
+      Identify the target taxa, gene and/or moleculefor the protocol [e.g., Polaribacter [NCBITaxon:1642819],
+      16S Mitochondrial Ribosomal RNA [NCIT:C131261]].
+    range: string
+    multivalued: true
+    examples:
+    - value: Polaribacter [NCBITaxon:1642819]
+    - value: 16S Mitochondrial Ribosomal RNA [NCIT:C131261]
+  contributor:
+    is_a: core field
+    title: contributor
+    description: >
+      An entity responsible for making contributions to the resource.
+    range: string
+    multivalued: true
+    examples:
+    - value: Kathleen Johnson Pitz
+    slot_uri: DCMI:contributor
 enums:
    meth_cat_enum:
     permissible_values:
