@@ -6,6 +6,7 @@ prefixes:
   linkml: https://w3id.org/linkml/
   miop.vocab: https://w3id.org/miop/vocab/
   MIOP: https://w3id.org/miop/terms/
+  DCMI: http://purl.org/dc/terms/
 default_prefix: miop.vocab
 slots: {}
 classes:
