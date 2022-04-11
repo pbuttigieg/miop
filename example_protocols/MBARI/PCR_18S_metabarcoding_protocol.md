@@ -8,6 +8,7 @@ MIOP protocol template
 | ------------- | ------------- | ------------- | ------------- |
 | Jacoby Baker  | MBARI  | Content Cell | yyyy-mm-dd |
 | Kobun Truelove  | MBARI  | Content Cell | yyyy-mm-dd |
+| Katie Pitz  | MBARI  | Content Cell | yyyy-mm-dd |
 
 ## PROTOCOL REVISION RECORD
 
